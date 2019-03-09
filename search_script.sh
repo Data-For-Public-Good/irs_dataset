@@ -9,7 +9,7 @@ mkdir -p queries
 
 grep -A 4 -B 4 "$1" --directories=skip * > queries/"$1".txt 
 
-""" 
+: '  
 Let's go part by part:
 
 `grep` searches for an expression and prints it.
@@ -22,4 +22,4 @@ Let's go part by part:
 
 And now we have a new file with all the results, so we can check which datasets have that particular variable, and the details about it.
 
-"""
+'
