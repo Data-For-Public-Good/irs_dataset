@@ -13,7 +13,6 @@ Sample invocation: python3 clean_orgs.py directory-path destination.csv
 import os
 import pandas as pd
 from sys import argv
-import geocoder
 
 DIR_PATH = argv[1]
 DEST_PATH = argv[2]
